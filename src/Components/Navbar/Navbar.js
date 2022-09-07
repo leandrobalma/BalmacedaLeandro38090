@@ -4,7 +4,7 @@ import CartWidget from '../Cart/CartWidget';
 import { Nav } from './Nav/Nav';
 
 
-const Navbar = ({ nombre, apellido, id, children }) => {
+const Navbar = () => {
 
     const categorias = [
         { id: 0, nombre: 'Quienes somos' },
